@@ -97,6 +97,19 @@
   font-size: 3.125rem;
 }
 
+/* 
+bg- color */
+
+.btn-primary{
+  background-color: #E95A08;
+  color:rgba(255, 255, 255, 1);
+  font-weight: 600;
+  border: none;
+  width: 100%;
+  height: 50px;
+  font-size: 1rem;
+
+}
 
 
 /* header section */
@@ -163,6 +176,20 @@
   text-align: center;
 }
 
+.plant-name{
+  color: #111111;
+  font-size: 1.75rem;
+  font-weight: 500;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.plant-price{
+  color: #111111;
+  font-weight: bold;
+  font-size: 1.75rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
 
 
 
