@@ -161,7 +161,7 @@ bg- color */
 .plant{
   max-width: 1140px;
   margin: 0 auto;
-  margin-bottom: 200px;
+  margin-bottom: 210px;
 }
 
 .plant-title-section{
@@ -193,6 +193,36 @@ bg- color */
 }
 .plant-card> img {
    width:100%;
+}
+
+
+/* plant-lover section styles */
+.plant-lover{
+  max-width: 1140px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  justify-content: space-between;
+  align-items: center;
+  gap:60px;
+}
+.img-container{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.trusted-badge{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 280px;
+  height: 280px;
+  margin-right: -90px;
+  margin-top: -120px;
+}
+.love-list{
+padding-left: 30px;
 }
 
 
@@ -245,6 +275,7 @@ bg- color */
 .plant{
   max-width: 570px;
    margin-top: 65px;
+   margin-bottom: 65px;
 }
 .plant-header{
   font-size: 1.5rem;
@@ -265,6 +296,38 @@ bg- color */
   column-gap: 20px;
   row-gap: 30px;
 }
+
+
+/* plant lover sction */
+.plant-lover{
+  max-width: 570px;
+  margin: 0 auto;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  
+}
+.img-container{
+  margin-left: 16px;
+  margin-right: 16px;
+  width:calc(100% - 32px);
+  
+}
+.flower-store{
+  width: 100%;
+}
+.lover-heading{
+  font-size: 1.5rem;
+}
+ .lover-list {
+  font-size: 0.875rem;
+}
+.plant-lover-text{
+  margin-left: 16px;
+  margin-right: 16px;
+  width:calc(100% - 32px);
+}
+
 
  
  
