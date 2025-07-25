@@ -153,7 +153,7 @@ bg- color */
 
 
 .b{
-  border: 1px solid red;
+  border: none;
 }
 
 
@@ -397,6 +397,7 @@ footer{
   gap:50px;
 } */
  .footer-container {
+  height:100%;
   margin-right: 140px;
   margin-left: 140px;
   display: flex;
@@ -414,8 +415,7 @@ footer{
     color: rgba(0, 0, 0, 0.5);
 }
 .link-footer{
-  height: 80px;
-  width: 135px;
+  height:100%;
 }
 .link-footer{
   display:grid;
@@ -442,8 +442,9 @@ footer{
 }
 .social-media-link {
   display: flex;
-  justify-content: flex-start;
-  align-self: center;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
 }
 
 
@@ -542,7 +543,7 @@ footer{
 .lover-heading{
   font-size: 1.5rem;
 }
- .lover-list {
+ .lover-list li {
   font-size: 0.875rem;
 }
 .plant-lover-text{
@@ -565,7 +566,12 @@ footer{
   margin-right: 16px;
   margin-bottom: 40px;
   width:calc(100% - 32px);
+  font-size: 0.85rem;
   
+  
+}
+.latest-deal-description{
+  font-size: 0.875rem;
 }
 
 .latest-card-container {
@@ -620,7 +626,35 @@ footer{
 .footer-container
 {
   flex-direction: column;
+  justify-content: flex-start;
+  margin: 0;
+  margin-left: 16px;
+  gap:10px;
 }
+.footer-descript{
+  font-size:1rem;
+  font-weight: 400;
+}
+
+.footer-logo{
+   height: 110px;
+   width:180px;
+   margin-bottom: 5px;
+
+  }
+
+  .link-footer{
+    grid-template-columns: repeat(1,1fr);
+    gap:30px;
+    font-size: 1rerm;
+    
+  }
+ 
+
+  /*  */
+  .font-small-l{
+    font-size:0.875rem;
+  }
 
 
 
